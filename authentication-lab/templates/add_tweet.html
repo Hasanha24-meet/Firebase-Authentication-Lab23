@@ -5,7 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-    <form method="GET" action="/add_tweet">
-    Great Job!
+    <h3>Add Tweet</h3>
+    <hr>
+    <form method="POST" action="/add_tweet">
+    <form>
+        <label>Enter Title:</label><br>
+        <input type="text" name="title" id="title"> <br>
+        <label>Enter Text:</label><br>
+        <input type="text" id="text" name="text" maxlength="280">
+        <!-- Button -->
+        <br>
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
 </body>
 </html>
